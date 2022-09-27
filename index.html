@@ -3,21 +3,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="CSS/estilo.css" type="text/css">
     <title>Strata</title>
 </head>
 <body>
     
-    <header>
+    <a href="#conteudo"> <button id="anchor" value="teste"><img src="Imagens/anchor.svg" alt="Ancora da Pagina" id="img_anchor"></button></a>
+<header>
+
+        <img src="Imagens/bg.svg" alt="Imagem de Fundo. A foto de um planeta em pixel" id="img_bg">
+        <img src="Imagens/avatar.svg" alt="avatar do autor do post" id="avatar">
+        <div id="title_inic" class="titulos">
+            <h2 id="t1">Trabalhos & outras coisas de</h2>
+            <h1 id="t2">Orlando Júnior</h1>
+            <h2 id="t3">Ninguém liga</h2>
+        </div>
+
+        <div id="contact">     
+
+            <img src="Imagens/Icones/gmail.png" alt="gmail">
+            <img src="Imagens/Icones/insta.png" alt="insta">
+            <img src="Imagens/Icones/whats.png" alt="whats">
+            <img src="Imagens/Icones/linkedin.png" alt="linkedin">
+            
+        </div>
         
-    </header>
+        <div id="infos_footer">   
+        
+            <h3> © Copyright | HTML 5 | CSS</h3>
+
+        </div>
     
-    <main>
+</header>
+    
+<main>
+    <div id="conteudo">
+        <h1 class="titulos">QUANDO O HEADER É ASIDE E O ASIDE É O HEADER</h1>
+            
+        <p>
+            Lorem ipsum dolor sit amet. Ut voluptas architecto qui iure corporis aut facilis obcaecati est autem rerum sed sequi atque. 
+            Non praesentium necessitatibus et maiores consectetur aut soluta voluptatum aut dolorem corporis et rerum voluptatem et velit quia. Aut dolorum adipisci sit magni quia ut reiciendis omnis. Eum quae quia sed aspernatur omnis ut sunt quasi qui praesentium fuga.
+            Lorem ipsum dolor sit amet. Ut voluptas architecto qui iure corporis aut facilis obcaecati est autem rerum sed sequi atque. 
+            Non praesentium necessitatibus et maiores consectetur aut soluta voluptatum aut dolorem corporis et rerum voluptatem et velit quia. Aut dolorum adipisci sit magni quia ut reiciendis omnis. Eum quae quia sed aspernatur omnis ut sunt quasi qui praesentium fuga.
+        </p>
+        <input type="button" value="Saiba Mais" id="btn_saibamais" class="btns">   
 
-    </main>
+       
 
-    <footer>
+    <ul id="work_list">
+            <h2>Recent Works</h2>
+        <li>
+                <h3>Lorem ipsum dolor sit</h3>
+                <img src="Imagens/fulls/a_look_inside-wallpaper-1920x1200.jpg" alt="Imagem Thumb">
+                <p>Mini texto Auto-Explicativo  dolor dolor </p>
+            </li>
+            <li>
+                <h3>Lorem ipsum dolor sit</h3>
+                <img src="Imagens/fulls/css_coding-wallpaper-1920x1200.jpg" alt="Imagem Thumb">
+                <p>Mini texto Auto-Explicativo  dolor dolor</p>
+            </li>
+            <li>
+                <h3>Lorem ipsum dolor sit</h3>
+                <img src="Imagens/fulls/default_os_x_lion-wallpaper-1920x1200.jpg" alt="Imagem Thumb">
+                <p>Mini texto Auto-Explicativo  dolor dolor</p>
+            </li>
+            <li>
+                <h3>Lorem ipsum dolor sit</h3>
+                <img src="Imagens/fulls/discover_the_world_in_virtual_reality_travel-wallpaper-1920x1200.jpg" alt="Imagem Thumb">
+                <p>Mini texto Auto-Explicativo  dolor dolor</p>
+            </li>
+            <li>
+                <h3>Lorem ipsum dolor sit</h3>
+                <img src="Imagens/fulls/keyboard_letter-wallpaper-1920x1200.jpg" alt="Imagem Thumb">
+                <p>Mini texto Auto-Explicativo  dolor dolor</p>
+                </li>
+            <li>
+                <h3>Lorem ipsum dolor sit</h3>
+                <img src="Imagens/fulls/love_code-wallpaper-1920x1200.jpg" alt="Imagem Thumb">
+                <p>Mini texto Auto-Explicativo  dolor dolor</p>
+        </li>
+    </ul>
 
-    </footer>
+            <input type="button" value="Ver o Porfólio Completo"  class="btns" id="btn_vermais">   
+            <hr id="hr1">    
+
+            <h3 class="titulos" id="get_in">Get in Touch</h3>
+            
+    <section id="form">
+
+            
+
+            <p>   Lorem ipsum dolor sit amet. Ut voluptas architecto qui iure corporis aut facilis obcaecati est autem rerum sed sequi atque. 
+                Non praesentium necessitatibus et maiores consectetur aut soluta voluptatum aut dolorem corporis et rerum voluptatem et velit quia.</p>
+            <form action="POST">
+               
+               
+                <label for="nome_form" class="labels_form" id="label_name">Name</label>
+                <input type="text"  class="form_itens" id="nome_form">
+                <label for="label_email" class="labels_form" id="label_email">E-mail</label>
+                <input type="email"  class="form_itens" id="email_form">
+                <textarea  rows="8" cols="50"  class="form_itens" id="text_form"></textarea>
+                <label for="text_form" id="label_text" class="labels_form">Send a message!</label>
+                <input type="button" value="Send" id="send_form" class="btns">
+                
+            </form>
+            <hr id="hr2">  
+
+    </section>
+
+
+    </div>
+</main>
+
+<footer>
+
+</footer>
 </body>
 </html>
