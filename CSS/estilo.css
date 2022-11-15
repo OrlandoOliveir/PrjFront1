@@ -174,8 +174,8 @@ body > header{
 
     
     opacity: 1;
-    width: 140px;
-    height: 52px;
+    width: 160px;
+    height: 48px;
 
 }
 
@@ -218,6 +218,7 @@ body > header{
     transition-timing-function: ease-in-out;
 }
 
+
 #work_list>li>img:hover{
     
     filter: grayscale(0);
@@ -226,6 +227,7 @@ body > header{
     transition: 0.5s;
     width: 250px;
     height: 180px;
+    
 }
 
 #work_list>li>h3{
@@ -244,7 +246,7 @@ body > header{
 
     position: absolute;
     display: inline-block;
-    top: 1000px;
+    top: 1130px;
     width: 180px;
     left: 1%;
 }
@@ -252,7 +254,7 @@ body > header{
 #get_in{
 
     position: absolute;
-    top: 1100px;
+    top: 1190px;
     left: 6%;
     font-size: 22px;
 }
@@ -262,7 +264,7 @@ body > header{
     width: 800px;
     position: relative;
     display: inline-block;
-    top: 920px;
+    top: 1030px;
     left: 0%;
     font-size: 19px;
     color: #606263;
@@ -281,7 +283,7 @@ body > header{
 
     display: inline-block;
     position: absolute;
-    top: 125px;
+    top: 130px;
     color: #606263;
     font-size: 14px;
 }
@@ -364,7 +366,7 @@ body > header{
 
     width: 500px;
     position: relative;
-    top: 220px;
+    top: 210px;
     border-radius: 3px;
     border: #bfc4c5 1px solid;
     padding: 5px;    
@@ -409,10 +411,160 @@ body > header{
     left: 100px;
 }
 
+#addres{
+    
+    opacity: 0.6;
+    height: 200px;
+    width: 190px;
+    position: absolute;
+    top: 220px;
+    right: 65px;
+    font-size: 12px;
+}
 
 #send_form{
 
     position: absolute;
     top: 370px;
     left: 7px;
+    color: whitesmoke;
 }
+
+
+#elements{
+
+    position: relative;
+    display: inline-block;
+    width: 800px;
+    height: 600px;
+    top: 1380px;
+    
+}
+
+#pre_format_txt{
+
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    background-color:  RGBA(210, 216, 218, 0.6);
+    width: 455px;
+    text-align: justify;
+    font-size: 13px;
+}
+
+#elements_title{
+
+    position: absolute;
+    top: -30px;
+    left: 10%;
+    font-size: 22px;
+}
+
+#lists{
+
+    position: absolute;
+    display: inline-block;
+    top: 130px;
+    width: 600px;
+    height: 200px;
+    left: 10px;
+    text-align: justify;
+}
+
+#ul_test{
+
+    position: absolute;
+    top: 60px;
+    left: 270px;
+
+}
+
+#list_test{
+
+    position: absolute;
+    top: 60px;
+    left: 20;
+}
+
+#checkbox_mult{
+
+    position: relative;
+    display: inline-block;
+    top: 450px;
+    left: 52px;
+
+}
+
+#checkbox_mult >h3{
+
+    margin-bottom: 40px;
+
+}
+
+ #checkbox_mult > label >input {
+    
+
+    margin-right: 60px;
+    width: 120px;
+    height: 45px;
+    cursor: pointer; 
+    background-color: RGBA(37, 190, 80, 0.8);
+    border: 2px #bfc4c5 solid;
+    color: whitesmoke;
+    border-radius: 6px;
+    opacity: 0.7;
+}
+
+
+#checkbox_mult > label > input:hover {
+    
+    opacity: 1;
+    
+}
+
+#checkbox_mult > label > input:focus{
+   
+    margin-right: 60px;
+    width: 120px;
+    height: 45px;
+    cursor: pointer; 
+    background-color: #2596be;
+    border: 2px #63c28d solid;
+    color: whitesmoke;
+    border-radius: 6px;
+    opacity: 1;
+    
+
+}
+
+
+#tbl {
+
+    position: absolute;
+    top: 700px;
+    width: 800px;
+    height: 400px;
+    left: 50px;
+
+}
+
+
+#table:nth-child(even){
+
+background-color: #eff9f4;
+
+}
+
+#table{
+
+    border: 1px solid;
+    width: 100%;
+
+}
+
+table,tr,th, td{
+
+    border: 1px solid;
+
+}
+
